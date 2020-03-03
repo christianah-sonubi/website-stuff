@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+    <!-- The title is what will appear on the tab in the browser. -->
+  <title>Sign up</title>
+
+      <!-- You need to link css and any external code in the head. -->
+
+  <!-- The two links below link to Jquery which allows for easier and more efficient use of javascript and bootstrap which allows you to add themes to your webpages. -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="sign in.css">
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+      <!-- Class active indicates which page we are on. href"" should link to desired page. -->
+  <a href="Index.html">Home</a>
+  <a href="nav2grid.html">Grid Example</a>
+  <a href="contact.html">Contact</a>
+  <a href="signup.html" class="active">Sign Up/Login</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+      <!-- Code for login option. -->
+  <div class="login-box">
+    <div class="lb-header">
+      <a href="#" class="active" id="login-box-link">Login</a>
+      <a href="#" id="signup-box-link">Sign Up</a>
+    </div>
+          <!-- Code for social media login buttons. -->
+    <div class="social-login">
+      <a href="https://en-gb.facebook.com/login/">
+        <i class="fa fa-facebook fa-lg"></i>
+        Login in with facebook
+      </a>
+      <a href="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fwww.google.com%3Fhl%3Den-US&flowName=GlifWebSignIn&flowEntry=AddSession">
+        <i class="fa fa-google-plus fa-lg"></i>
+        log in with Google
+      </a>
+    </div>
+    <form class="email-login">
+      <div class="u-form-group">
+        <input type="email" placeholder="Email"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Password"/>
+      </div>
+      <div class="u-form-group">
+        <button>Log in</button>
+      </div>
+      <div class="u-form-group">
+        <a href="#" class="forgot-password">Forgot password?</a>
+      </div>
+    </form>
+
+          <!-- Code for Sign up option. -->
+    <form class="email-signup">
+      <div class="u-form-group">
+        <input type="email" placeholder="Email"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Password"/>
+      </div>
+      <div class="u-form-group">
+        <input type="password" placeholder="Confirm Password"/>
+      </div>
+      <div class="u-form-group">
+        <button>Sign Up</button>
+      </div>
+    </form>
+  </div>
+        <!-- Linking to signup javascript -->
+<script src="sign in.js"></script>
+</body>
+</html>

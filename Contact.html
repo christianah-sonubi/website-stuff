@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="contact.css">
+
+	<title>CONTACT US</title>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+      <!-- Linking to css for contact options and navbar1 -->
+
+</head>
+
+<body>
+      <!-- Navbar -->
+	
+				<!-- Class active indicates which page we are on. href"" should link to desired page. -->
+		<ul>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Menu</a>
+    <div class="dropdown-content">
+      <a href="Index.html">Home</a>
+      <a href="catagories.html">Catagories</a>
+      <a href="about.html">about us</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="Sign in.html">Sign in/Log in</a>
+
+</ul>
+
+
+	<div id="page-wrap">
+
+		<img src="images/title.gif" alt="CONTACT US" /><br /><br />
+
+		<div id="contact-area">
+      <!-- Ignore PHP as it does not work in GitHub. -->
+			<form method="post" action="contactengine.php">
+				<label for="Name">Name:</label>
+				<input type="text" name="Name" id="Name" />
+
+				<label for="City">City:</label>
+				<input type="text" name="City" id="City" />
+
+				<label for="Email">Email:</label>
+				<input type="text" name="Email" id="Email" />
+
+				<label for="Message">Message:</label><br />
+				<textarea name="Message" rows="20" cols="20" id="Message"></textarea>
+
+				<a href="thankyou.html" />
+			
+			</form>
+
+			<div style="clear: both;"></div>
+
+
+
+		</div>
+
+	</div>
+
+	      <!-- linking to navbar1 javascript.-->
+<script src="navbar1.js"></script>
+</body>
+
+<head>
+	<title>A Nice & Simple Contact Form</title>
+	
+	<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+</html>

@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+<body>
+<style> /* css for the drop down nav bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+<!-- this is the drop down nav bar-->
+<ul>
+    <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Menu</a>
+    <div class="dropdown-content">
+      <a href="Index.html">Home</a>
+      <a href="catagories.html">Catagories</a>
+      <a href="about.html">about us</a>
+    </div>
+  </li>
+  <li style="float:right"><a href="Sign in.html">Sign in/Log in</a>
+
+</ul>
+
+</head>
+<body>
+
+<!-- in this part a i used a gallery to name the different catagories-->
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="test/resources/x.png" alt= width="600" height="400">
+  </a>
+  <div class="desc">MONSTA X</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+     <img src="test/resources/sehun.png" alt width="600" height="400">
+  </a>
+  <div class="desc">EXO</div>
+</div>
+<!-- the BTS catagory is the only one that works-->
+<div class="gallery">
+  <a target="_blank" href="bts.html">
+   <img src="test/resources/mapseoul.png" alt width="600" height="400">
+  </a>
+  <div class="desc">BTS</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/in.png" alt width="600" height="400">
+  </a>
+  <div class="desc">STRAY KIDS</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/boom.png" alt width="600" height="400">
+  </a>
+  <div class="desc">NCT</div>
+</div>
+
+
+<html>
+<head>
+<style> /* this is the css for the catagory page*/
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+</style>
+
+<style>
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  color: white
+}
+</style>
+</head>
+<body>
+
+<div class="gallery">
+  <a target="_blank" href="img_5terre.jpg">
+    <img src="test/resources/wanna one.png" width="600" height="400">
+  </a>
+  <div class="desc">WANNA ONE</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_forest.jpg">
+    <img src="test/resources/seventeen.png" width="600" height="400">
+  </a>
+  <div class="desc">SEVENTEEN</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_lights.jpg">
+    <img src="test/resources/Got7.png" width="600" height="400">
+  </a>
+  <div class="desc">GOT7</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/ace.png" width="600" height="400">
+  </a>
+  <div class="desc">A.C.E</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/ateez.png" width="600" height="400">
+  </a>
+  <div class="desc">ATEEZ</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/theboyz.png" width="600" height="400">
+  </a>
+  <div class="desc">THE BOYZ</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/SuperM.png" width="600" height="400">
+  </a>
+  <div class="desc">SUPER M</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/day6.png" width="600" height="400">
+  </a>
+  <div class="desc">DAY6</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/ikon.png" width="600" height="400">
+  </a>
+  <div class="desc">IKON</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/Apink.png" width="600" height="400">
+  </a>
+  <div class="desc">APINK</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="img_mountains.jpg">
+    <img src="test/resources/blackpink.png" width="600" height="400">
+  </a>
+  <div class="desc">BLACKPINK</div>
+</div>
+
+
+</body>
+</html>
